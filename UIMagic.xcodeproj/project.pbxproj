@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582E6E791C60C4A2004C5DE5 /* UIMagicNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E6E781C60C4A2004C5DE5 /* UIMagicNavigationItem.m */; };
+		582E6EA51C622648004C5DE5 /* NSArray+IndexHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E6EA41C622648004C5DE5 /* NSArray+IndexHelper.m */; };
+		582E6EA91C6227DC004C5DE5 /* NSMutableArray_IndexHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E6EA81C6227DC004C5DE5 /* NSMutableArray_IndexHelper.m */; };
+		582E6EAD1C635CA4004C5DE5 /* UIMagicRuntimeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 582E6EAC1C635CA4004C5DE5 /* UIMagicRuntimeUtility.m */; };
+		58FE8C481C5B58420084F8C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8C471C5B58420084F8C2 /* AppDelegate.swift */; };
+		58FE8C4A1C5B58420084F8C2 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8C491C5B58420084F8C2 /* MasterViewController.swift */; };
+		58FE8C4C1C5B58420084F8C2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8C4B1C5B58420084F8C2 /* DetailViewController.swift */; };
+		58FE8C4F1C5B58420084F8C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FE8C4D1C5B58420084F8C2 /* Main.storyboard */; };
+		58FE8C511C5B58420084F8C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FE8C501C5B58420084F8C2 /* Assets.xcassets */; };
+		58FE8C541C5B58420084F8C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FE8C521C5B58420084F8C2 /* LaunchScreen.storyboard */; };
+		58FE8C741C5B7EF60084F8C2 /* UIMagicPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8C731C5B7EF60084F8C2 /* UIMagicPlaceHolder.m */; };
+		58FE8C931C5BAAB80084F8C2 /* UIMagicTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8C921C5BAAB80084F8C2 /* UIMagicTopView.m */; };
+		58FE8C981C5D2C0F0084F8C2 /* UIMagicNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8C971C5D2C0F0084F8C2 /* UIMagicNavigationBar.m */; };
+		58FE8C9C1C5DFDD80084F8C2 /* UIMagicPlaceHolderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8C9B1C5DFDD80084F8C2 /* UIMagicPlaceHolderManager.m */; };
+		58FE8CA31C5E81C60084F8C2 /* UIView_UIMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FE8CA21C5E81C60084F8C2 /* UIView_UIMagic.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		582E6E771C60C4A2004C5DE5 /* UIMagicNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMagicNavigationItem.h; sourceTree = "<group>"; };
+		582E6E781C60C4A2004C5DE5 /* UIMagicNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMagicNavigationItem.m; sourceTree = "<group>"; };
+		582E6EA31C622648004C5DE5 /* NSArray+IndexHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+IndexHelper.h"; sourceTree = "<group>"; };
+		582E6EA41C622648004C5DE5 /* NSArray+IndexHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+IndexHelper.m"; sourceTree = "<group>"; };
+		582E6EA81C6227DC004C5DE5 /* NSMutableArray_IndexHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableArray_IndexHelper.m; sourceTree = "<group>"; };
+		582E6EAA1C622830004C5DE5 /* NSMutableArray_IndexHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSMutableArray_IndexHelper.h; sourceTree = "<group>"; };
+		582E6EAB1C635CA4004C5DE5 /* UIMagicRuntimeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMagicRuntimeUtility.h; sourceTree = "<group>"; };
+		582E6EAC1C635CA4004C5DE5 /* UIMagicRuntimeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMagicRuntimeUtility.m; sourceTree = "<group>"; };
+		58FE8C441C5B58420084F8C2 /* UIMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FE8C471C5B58420084F8C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58FE8C491C5B58420084F8C2 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		58FE8C4B1C5B58420084F8C2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		58FE8C4E1C5B58420084F8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58FE8C501C5B58420084F8C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58FE8C531C5B58420084F8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58FE8C551C5B58420084F8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58FE8C711C5B7EF50084F8C2 /* UIMagic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIMagic-Bridging-Header.h"; sourceTree = "<group>"; };
+		58FE8C721C5B7EF60084F8C2 /* UIMagicPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMagicPlaceHolder.h; sourceTree = "<group>"; };
+		58FE8C731C5B7EF60084F8C2 /* UIMagicPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMagicPlaceHolder.m; sourceTree = "<group>"; };
+		58FE8C7E1C5B96810084F8C2 /* UINavigationButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UINavigationButton.h; sourceTree = "<group>"; };
+		58FE8C911C5BAAB80084F8C2 /* UIMagicTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMagicTopView.h; sourceTree = "<group>"; };
+		58FE8C921C5BAAB80084F8C2 /* UIMagicTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMagicTopView.m; sourceTree = "<group>"; };
+		58FE8C951C5BDAA20084F8C2 /* UIMagicProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMagicProtocol.h; sourceTree = "<group>"; };
+		58FE8C961C5D2C0F0084F8C2 /* UIMagicNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMagicNavigationBar.h; sourceTree = "<group>"; };
+		58FE8C971C5D2C0F0084F8C2 /* UIMagicNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMagicNavigationBar.m; sourceTree = "<group>"; };
+		58FE8C9A1C5DFDD80084F8C2 /* UIMagicPlaceHolderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMagicPlaceHolderManager.h; sourceTree = "<group>"; };
+		58FE8C9B1C5DFDD80084F8C2 /* UIMagicPlaceHolderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMagicPlaceHolderManager.m; sourceTree = "<group>"; };
+		58FE8C9D1C5E01850084F8C2 /* UIMagicPlaceHolderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMagicPlaceHolderDelegate.h; sourceTree = "<group>"; };
+		58FE8CA11C5E7DD80084F8C2 /* UIView_UIMagic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_UIMagic.h; sourceTree = "<group>"; };
+		58FE8CA21C5E81C60084F8C2 /* UIView_UIMagic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_UIMagic.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58FE8C411C5B58420084F8C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582E6E761C60C46E004C5DE5 /* UIMagicNavigationItem */ = {
+			isa = PBXGroup;
+			children = (
+				582E6E771C60C4A2004C5DE5 /* UIMagicNavigationItem.h */,
+				582E6E781C60C4A2004C5DE5 /* UIMagicNavigationItem.m */,
+			);
+			name = UIMagicNavigationItem;
+			sourceTree = "<group>";
+		};
+		58FE8C3B1C5B58420084F8C2 = {
+			isa = PBXGroup;
+			children = (
+				58FE8C461C5B58420084F8C2 /* UIMagic */,
+				58FE8C451C5B58420084F8C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58FE8C451C5B58420084F8C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8C441C5B58420084F8C2 /* UIMagic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58FE8C461C5B58420084F8C2 /* UIMagic */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8C5B1C5B58C80084F8C2 /* UIMagicComponent */,
+				58FE8C471C5B58420084F8C2 /* AppDelegate.swift */,
+				58FE8C491C5B58420084F8C2 /* MasterViewController.swift */,
+				58FE8C4B1C5B58420084F8C2 /* DetailViewController.swift */,
+				58FE8C4D1C5B58420084F8C2 /* Main.storyboard */,
+				58FE8C501C5B58420084F8C2 /* Assets.xcassets */,
+				58FE8C521C5B58420084F8C2 /* LaunchScreen.storyboard */,
+				58FE8C551C5B58420084F8C2 /* Info.plist */,
+			);
+			path = UIMagic;
+			sourceTree = "<group>";
+		};
+		58FE8C5B1C5B58C80084F8C2 /* UIMagicComponent */ = {
+			isa = PBXGroup;
+			children = (
+				582E6E761C60C46E004C5DE5 /* UIMagicNavigationItem */,
+				58FE8C991C5DFD910084F8C2 /* UIMagicPlaceHolderManager */,
+				58FE8C941C5BD0A20084F8C2 /* UIMagicProtocol */,
+				58FE8C7F1C5B968A0084F8C2 /* runtime */,
+				58FE8C711C5B7EF50084F8C2 /* UIMagic-Bridging-Header.h */,
+				58FE8C641C5B5C6F0084F8C2 /* UIMagicNavigationBar */,
+				58FE8C5F1C5B58F30084F8C2 /* Extension */,
+				58FE8C5E1C5B58EA0084F8C2 /* UIMagicView */,
+				58FE8C5D1C5B58DF0084F8C2 /* UIMagicPlaceHolder */,
+				58FE8C5C1C5B58D60084F8C2 /* UIMagicTopView */,
+			);
+			name = UIMagicComponent;
+			sourceTree = "<group>";
+		};
+		58FE8C5C1C5B58D60084F8C2 /* UIMagicTopView */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8C911C5BAAB80084F8C2 /* UIMagicTopView.h */,
+				58FE8C921C5BAAB80084F8C2 /* UIMagicTopView.m */,
+			);
+			name = UIMagicTopView;
+			sourceTree = "<group>";
+		};
+		58FE8C5D1C5B58DF0084F8C2 /* UIMagicPlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8C721C5B7EF60084F8C2 /* UIMagicPlaceHolder.h */,
+				58FE8C731C5B7EF60084F8C2 /* UIMagicPlaceHolder.m */,
+			);
+			name = UIMagicPlaceHolder;
+			sourceTree = "<group>";
+		};
+		58FE8C5E1C5B58EA0084F8C2 /* UIMagicView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIMagicView;
+			sourceTree = "<group>";
+		};
+		58FE8C5F1C5B58F30084F8C2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				582E6EA31C622648004C5DE5 /* NSArray+IndexHelper.h */,
+				582E6EA41C622648004C5DE5 /* NSArray+IndexHelper.m */,
+				58FE8CA11C5E7DD80084F8C2 /* UIView_UIMagic.h */,
+				58FE8CA21C5E81C60084F8C2 /* UIView_UIMagic.m */,
+				582E6EAA1C622830004C5DE5 /* NSMutableArray_IndexHelper.h */,
+				582E6EA81C6227DC004C5DE5 /* NSMutableArray_IndexHelper.m */,
+				582E6EAB1C635CA4004C5DE5 /* UIMagicRuntimeUtility.h */,
+				582E6EAC1C635CA4004C5DE5 /* UIMagicRuntimeUtility.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		58FE8C641C5B5C6F0084F8C2 /* UIMagicNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8C961C5D2C0F0084F8C2 /* UIMagicNavigationBar.h */,
+				58FE8C971C5D2C0F0084F8C2 /* UIMagicNavigationBar.m */,
+			);
+			name = UIMagicNavigationBar;
+			sourceTree = "<group>";
+		};
+		58FE8C7F1C5B968A0084F8C2 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8C7E1C5B96810084F8C2 /* UINavigationButton.h */,
+			);
+			name = runtime;
+			sourceTree = "<group>";
+		};
+		58FE8C941C5BD0A20084F8C2 /* UIMagicProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8C951C5BDAA20084F8C2 /* UIMagicProtocol.h */,
+				58FE8C9D1C5E01850084F8C2 /* UIMagicPlaceHolderDelegate.h */,
+			);
+			name = UIMagicProtocol;
+			sourceTree = "<group>";
+		};
+		58FE8C991C5DFD910084F8C2 /* UIMagicPlaceHolderManager */ = {
+			isa = PBXGroup;
+			children = (
+				58FE8C9A1C5DFDD80084F8C2 /* UIMagicPlaceHolderManager.h */,
+				58FE8C9B1C5DFDD80084F8C2 /* UIMagicPlaceHolderManager.m */,
+			);
+			name = UIMagicPlaceHolderManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58FE8C431C5B58420084F8C2 /* UIMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FE8C581C5B58420084F8C2 /* Build configuration list for PBXNativeTarget "UIMagic" */;
+			buildPhases = (
+				58FE8C401C5B58420084F8C2 /* Sources */,
+				58FE8C411C5B58420084F8C2 /* Frameworks */,
+				58FE8C421C5B58420084F8C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIMagic;
+			productName = UIMagic;
+			productReference = 58FE8C441C5B58420084F8C2 /* UIMagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58FE8C3C1C5B58420084F8C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "吳德彥";
+				TargetAttributes = {
+					58FE8C431C5B58420084F8C2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 88TVKS4PRA;
+					};
+				};
+			};
+			buildConfigurationList = 58FE8C3F1C5B58420084F8C2 /* Build configuration list for PBXProject "UIMagic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58FE8C3B1C5B58420084F8C2;
+			productRefGroup = 58FE8C451C5B58420084F8C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58FE8C431C5B58420084F8C2 /* UIMagic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58FE8C421C5B58420084F8C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FE8C541C5B58420084F8C2 /* LaunchScreen.storyboard in Resources */,
+				58FE8C511C5B58420084F8C2 /* Assets.xcassets in Resources */,
+				58FE8C4F1C5B58420084F8C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58FE8C401C5B58420084F8C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FE8C931C5BAAB80084F8C2 /* UIMagicTopView.m in Sources */,
+				58FE8C981C5D2C0F0084F8C2 /* UIMagicNavigationBar.m in Sources */,
+				58FE8C4C1C5B58420084F8C2 /* DetailViewController.swift in Sources */,
+				58FE8C741C5B7EF60084F8C2 /* UIMagicPlaceHolder.m in Sources */,
+				58FE8CA31C5E81C60084F8C2 /* UIView_UIMagic.m in Sources */,
+				58FE8C4A1C5B58420084F8C2 /* MasterViewController.swift in Sources */,
+				58FE8C9C1C5DFDD80084F8C2 /* UIMagicPlaceHolderManager.m in Sources */,
+				58FE8C481C5B58420084F8C2 /* AppDelegate.swift in Sources */,
+				582E6E791C60C4A2004C5DE5 /* UIMagicNavigationItem.m in Sources */,
+				582E6EAD1C635CA4004C5DE5 /* UIMagicRuntimeUtility.m in Sources */,
+				582E6EA51C622648004C5DE5 /* NSArray+IndexHelper.m in Sources */,
+				582E6EA91C6227DC004C5DE5 /* NSMutableArray_IndexHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58FE8C4D1C5B58420084F8C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58FE8C4E1C5B58420084F8C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58FE8C521C5B58420084F8C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58FE8C531C5B58420084F8C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58FE8C561C5B58420084F8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58FE8C571C5B58420084F8C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58FE8C591C5B58420084F8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = UIMagic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ntu-hci-lab.UIMagic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UIMagic/UIMagic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58FE8C5A1C5B58420084F8C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = UIMagic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ntu-hci-lab.UIMagic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UIMagic/UIMagic-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58FE8C3F1C5B58420084F8C2 /* Build configuration list for PBXProject "UIMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FE8C561C5B58420084F8C2 /* Debug */,
+				58FE8C571C5B58420084F8C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58FE8C581C5B58420084F8C2 /* Build configuration list for PBXNativeTarget "UIMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FE8C591C5B58420084F8C2 /* Debug */,
+				58FE8C5A1C5B58420084F8C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58FE8C3C1C5B58420084F8C2 /* Project object */;
+}
